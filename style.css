@@ -99,7 +99,10 @@ h1, h2{
   gap: 64px;
   padding: 64px 88px;
 }
-
+#banhoetosa li{
+  margin-bottom: 16px;
+  margin-left: 32px;  
+}
 
 #farmacia{
   padding: 64px 80px;
