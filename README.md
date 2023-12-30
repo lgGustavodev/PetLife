@@ -1,3 +1,3 @@
 https://lggustavodev.github.io/PetLife/
 
-HTML, CSS E JS
+O proximo passso para esse site é deixar responsivo, e que ele possa solicitar e agenda banho e tosa para seu pet
