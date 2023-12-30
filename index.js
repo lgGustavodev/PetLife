@@ -5,3 +5,4 @@ elementosDuvida.forEach(function(duvida){
     duvida.classList.toggle("ativa")
   })
 })
+

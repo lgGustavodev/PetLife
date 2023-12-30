@@ -83,9 +83,41 @@
           <li>Tesoura Porte Extra Grande( 31 a 50kg ) -<strong> R$80,00</strong></li>
         </ul>
       </div>
-    
-    </section>
+      <div id="agendaBanhoeTosa">
+        <form action="#banhoetosa">
+          <h2>Agenda o Banho e Tosa</h2>
+          <label >Escolha seu Pet:</label><br>
+          <input type="radio" name="cachorroegato" id="cachorro">
+          <label for="cachorro">Cachorro</label>
+          <input type="radio" name="cachorroegato" id="gato">
+          <label for="gato">Gato</label>
+          <br><br>
+          <label for="nomeDoDono">Nome do Dono:</label><br>
+          <input type="text" name="nomeDoDono" id="nomeDoDono"><br>
+          <label for="whatsApp">WhatsApp:</label><br>
+          <input type="tel" name="whatsApp" id="whatsApp"><br><br>
+          <label for="nomepet">Nome do Pet:</label><br>
+          <input type="text" name="nomepet" id="nomepet"  required><br>
+          <label for="pesopet">Peso Kg:</label><br>
+          <input type="number" name="pesopet"  id="pet">
+          <br><br>
+          <label>Tipo de Tosa:</label><br>
+          <input type="radio" name="tosa" id="maquina">
+          <label for="maquina">Maquina</label> /
+          <input type="radio" name="tosa" id="tesoura">
+          <label for="tesoura">Tesoura</label> /
+          <input type="radio" name="tosa" id="naotosar">
+          <label for="naotosar">Não tosar</label>
+          <br><br>
+          <button type="submit" onclick="solicitar()">Solicitar</button>
+        </form>
+      </div>
 
+      <div id="ress">
+        
+      </div>
+    </section>
+    
     <section id="farmacia">
       <h2>Venha conferir o nosso petshop e farmácia</h2>
 
