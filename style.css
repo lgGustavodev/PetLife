@@ -93,6 +93,14 @@ h1, h2{
   margin-left: 32px;
 }
 
+#banhoetosa{
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  padding: 64px 88px;
+}
+
+
 #farmacia{
   padding: 64px 80px;
   text-align: center;
