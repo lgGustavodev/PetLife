@@ -6,3 +6,6 @@ elementosDuvida.forEach(function(duvida){
   })
 })
 
+function solicitar(){
+  
+}
